@@ -31,7 +31,7 @@ If this scraper is being run on an Ubuntu server run:
 ### Set-up for PRAW
 Since PRAW uses the Reddit API, the following steps are necessary: 
 1) Access a Reddit account (if you do not have one sign up at https://reddit.com)
-2) Follow this guide to create an application and get a client ID and client secret. 
+2) Follow this guide to create an application and get a client ID and client secret: https://github.com/reddit-archive/reddit/wiki/OAuth2. 
 3) Replace the strings "CLIENT ID HERE", "CLIENT SECRET HERE", "APP NAME HERE" in lines 9 and 10 of **metadata_scraper.py** with your client ID, client secret, and app name in step 2 
 
 ## Running the Scraper
